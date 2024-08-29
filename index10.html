@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pronturio Eletrônico do HospitalS</title>
+</head>
+<body>
+    <h1>Prontuario Eletrônico</h1>
+
+    <form>
+        <label for = "nome">Nome Completo: </label><br>
+        <input type = "text" name = "nome"><br><br>
+
+        <label for = "nascimento">Data de Nascimento: </label><br>
+        <input type = "date" name = "nascimento"><br><br>
+
+        <label for = "telefone">Telefone: </label><br>
+        <input type = "text" name = "telefone"><br><br>
+
+        <label for = "e-mail">E-mail: </label><br>
+        <input for = "text" name = "e-mail"><br><br>
+
+        <label for = "cpf">CPF: </label><br>
+        <input type = "text" name = "cpf"><br><br>
+
+        <label for = "senha">Senha: </label><br>
+        <input type = "text" name = "senha"><br><br>
+
+        <label for = "genero">Gênero: </label><br>
+        <select name = "sexo" id = "">
+            <option value = "masculino">Masculino</option>
+            <option value = "feminino">Feminino</option>
+        </select><br><br>
+
+        <label for = "altura">Altura (em CM): </label><br>
+        <input type = "text" name = "altura"><br><br>
+
+        <label for = "foto">Foto do Paciente: </label><br>
+        <input type = "file" name = "foto"><br><br>
+
+        <label for = "notas">Notas Adicionais: </label><br>
+        <textarea name = "notas" rows = "4" cols = "50"></textarea><br><br>
+
+        <input type="submit">
+    </form>
+    <div>
+        <h2>Histórico de Consultas</h2>
+        <table border = "2">
+            <tr>
+                <th>Data</th>
+                <th>Médico</th>
+                <th>Diagnóstico</th>
+            </tr>
+            <tr>
+                <td>20/08/2024</td>
+                <td>Dr. João Silva</td>
+                <td>Hipertensão</td>
+            </tr>
+            <tr>
+                <td>15/07/2024</td>
+                <td>Dr. Maria Oliveira</td>
+                <td>Diabetes Tipo 2</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Medicamentos Prescritos</h2>
+        <table border = "2">
+            <tr>
+                <th>Medicamento</th>
+                <th>Dosagem</th>
+                <th>Instruções</th>
+            </tr>
+            <tr>
+                <td>Metformina</td>
+                <td>500mg</td>
+                <td>Tomar 1 vez ao dia</td>
+            </tr>
+            <tr>
+                <td>Atenolol</td>
+                <td>50mg</td>
+                <td>Tomar 2 vezes ao dia</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Resultados de Exames</h2>
+        <table border = "2">
+            <tr>
+                <th>Data</th>
+                <th>Tipo de Exame</th>
+                <th>Resultado</th>
+            </tr>
+            <tr>
+                <td>10/08/2024</td>
+                <td>Hemograma</td>
+                <td>Normal</td>
+            </tr>
+            <tr>
+                <td>05/07/2024</td>
+                <td>Colesterol</td>
+                <td>Alto</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>Históricos de Cirurgias</h2>
+        <table border = "2">
+            <tr>
+                <th>Data</th>
+                <th>Cirurgia</th>
+                <th>Observações</th>
+            </tr>
+            <tr>
+                <td>12/06/2023</td>
+                <td>Cirurgia de Apendicite</td>
+                <td>Recuperação sem Complicações</td>
+            </tr>
+            <tr>
+                <td>30/04/2022</td>
+                <td>Cirurgia de Vesícula</td>
+                <td>Recuperação com Complicações</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
